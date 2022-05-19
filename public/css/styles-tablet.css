@@ -1,0 +1,24 @@
+@media(min-width: 481px) {
+.product {
+    width: 49%;
+}
+.product-title {
+    display: none;
+}
+nav .ul {
+list-style-position:inside;
+width: 100%;
+}
+.burger{
+display: none;
+}
+.img-ml {
+    width: 50%;
+}
+footer {
+    display: block;
+}
+
+}
+
+

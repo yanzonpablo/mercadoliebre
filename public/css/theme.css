@@ -1,0 +1,207 @@
+h1 {
+margin: 0;
+}
+body {
+font-family: "Roboto", sans-serif;
+font-size: 12px;
+}
+.font-yellow {
+color: #eac926;
+}
+.bg-yellow {
+background-color: #eac926;
+}
+.font-blue {
+color: #03264c;
+}
+.bg-blue {
+background-color: #03264c;
+}
+.font-light-blue {
+color: #1259c3;
+}
+.bg-light-blue {
+background-color: #1259c3;
+}
+.font-dark-grey {
+color: #666;
+}
+.bg-dark-grey {
+background-color: #666;
+}
+.font-light-grey {
+color: #ebebeb;
+}
+.bg-light-grey {
+background-color: #ebebeb;
+}
+.font-green {
+color: #39b54a;
+}
+.bg-green {
+background-color: #39b54a;
+}
+.font-white {
+    color: white;
+}
+.bg-white {
+background-color: white;
+}
+.font-heading {
+font-size: 24px;
+}
+.font-large {
+font-size: 18px;
+}
+.font-medium {
+font-size: 16px;
+}
+.nav-section {
+padding: 0;
+}
+.nav-section li a {
+color: black;
+text-decoration: none;
+}
+.nav-section li {
+list-style: none;
+}
+.burger-menu {
+text-align: center;
+}
+.w-25{
+    width: 25px;
+}
+.burger-menu i {
+padding: 8px;
+background-color: #1259c3;
+color: #ebebeb;
+border-radius: 5px;
+}
+.truck-icon {
+display: block;
+font-size: 16px;
+padding: 5px;
+width: 30px;
+height: 30px;
+border: 1px solid #39b54a;
+background-color: #FFF;
+border-radius: 50%;
+position: absolute;
+right: 20px;
+top: -15px;
+}
+
+.product {
+box-shadow: 0px 0px 10px rgb(100, 100, 100);
+width: 100%;
+}
+.footer {
+background-color: white;
+padding-top: 10px;
+}
+.icon-footer {
+font-size: 32px;
+margin-bottom: 10px;
+}
+.center {
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content:space-around;
+}
+.ul-1 {
+    float: left;
+}
+nav .ul-1 li {
+    display: inline;
+    margin-right: 30px;
+}
+.ul-2 {
+    float: left;
+}
+nav .ul-2 li {
+    display: inline;
+    margin-right: 30px;
+}
+
+.text-center {
+    align-items: center;
+    font-size: 16px;
+}
+.df {
+  display: flex;
+}
+.ac{
+    align-items: center;
+}
+.fw {
+  flex-wrap: wrap;
+}
+.jc {
+    justify-content: center;
+}
+.tc {
+    text-align: center;
+}
+.w-33 {
+    width: 50%;
+}
+.fs {
+    font-size: 16px;
+}
+.jc-2 {
+    justify-content:space-between
+}
+.m-auto {
+    margin: auto;
+}
+.jcs {
+    justify-content: space-around;
+}
+footer {
+    margin: auto;
+    text-align: center;
+}
+
+.border-n {
+    border: none;
+}
+.buscar {
+    font-size: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+.input-search {
+
+    border: none;
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+}
+.icon-search {
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+}
+.iconsearch {
+    padding-left: -20px;
+}
+.buscador {
+    display: block;
+    margin-bottom: 4px;
+    width: 100%;
+    font-weight: bold;
+}
+.copyright{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+.mb-20 {
+    margin-bottom: 20px;
+}
+.reglon {
+    text-decoration: none;
+}

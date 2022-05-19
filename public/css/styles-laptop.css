@@ -1,0 +1,38 @@
+@media(min-width: 769px) {
+.product-w25 {
+  width: 24%;
+  padding: 8px;
+}
+.burger {
+  display: none;
+}
+.product-title {
+  display: none;
+}
+.img-ml {
+    width: 33%;
+}
+article:hover .product-title {
+  display:block;
+}
+.product {
+  box-shadow: none;
+}
+.product:hover{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+.rotacion {
+  transition: transform 1s;
+}
+article:hover .rotacion{
+  transform: rotatez(-90deg);
+}
+
+footer i:hover {
+  color: #39b54a;
+}
+.df-laptop {
+  display: flex;
+}
+
+}

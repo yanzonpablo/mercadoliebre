@@ -1,0 +1,109 @@
+.p-8 {
+padding: 8px;
+}
+.b-1 {
+border-style: solid;
+border-width: 1px;
+}
+.b-2 {
+border-top: #ebebeb 1px solid;
+}
+.b-circle {
+border-radius: 50%;
+}
+.border-light-grey {
+border-color: #ebebeb;
+}
+.w-100 {
+width: 100%;
+}
+.w-90 {
+width: 90%;
+}
+.w-50 {
+width: 50%;
+}
+.w-25{
+width: 25%;
+}
+.m-center {
+margin: 0 auto;
+}
+.m-8 {
+margin: 8px;
+}
+.mt-8 {
+margin-top: 8px;
+}
+.mb-8 {
+margin-bottom: 8px;
+}
+.text-center {
+text-align: center;
+}
+.m-9 {
+margin-bottom: 10px;
+}
+.m-10 {
+margin-left: 3px;
+}
+.m-11 {
+margin-top: 40px;
+}
+.m-12 {
+margin: 0px 10px 0px 10px;
+}
+.relative {
+position: relative;
+}
+.centrardescripcion {
+display: flex;
+flex-wrap: wrap;
+width: 30%;
+}
+.w-80 {
+width: 80%;
+}
+.w-90 {
+width: 90%;
+}
+.precio{
+width: 30%;
+}
+.descuento {
+width: 70%;
+}
+.mt-16 {
+margin-top: 16px;
+}
+.mt-20 {
+margin-top: 20px;
+}
+.mt-30 {
+margin-top: 30px;
+}
+.fs-20{
+font-size: 20px; 
+}
+.mr-20 {
+margin-right: 20px;
+}
+.w-30 {
+width: 30%;
+}
+.b-top-1 {
+border-top-width: 1px;
+border-top-style: solid;
+}
+.w-70 {
+width: 70%;
+}
+.mb {
+margin-bottom: 24px;
+}
+.font-16 {
+font-size: 16px;
+}
+.p-16 {
+    padding: 16px
+}

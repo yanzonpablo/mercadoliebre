@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercado Liebre - Register</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/normalize.css" />
+    <link rel="stylesheet" href="/css/utils.css" />
+    <link rel="stylesheet" href="/css/theme.css">
+    <link rel="stylesheet" href="/css/register.css">
+    <link rel="stylesheet" href="/css/styles-tablet.css" />
+    <link rel="stylesheet" href="/css/styles-laptop.css" />
+    <link rel="stylesheet" href="/css/styles-mobile.css" />
+</head>
+
+<body class="bg-light-grey">
+<header class="bg-yellow p-8">
+    <div class="relative center df fw jcs">
+        <h1 class="img-ml">
+            <img src="/images/logo-mercado-liebre.svg" alt="Mercado Liebre" />
+        </h1>
+        <div class="buscar border-n df jc">
+            <input class="input-search" type="text" name="buscar" placeholder="Buscar productos, marcas y mas..." />
+            <button class="icon-search "><i class="fa fa-search"></i></button>
+        </div>
+        <p class="text-center jc">
+            <i class="fas fa-hand-holding-usd"></i>Comprá en cuotas y sin tarjeta de
+            credito
+        </p>
+    </div>
+
+
+    <nav class="nav-bar mt-8">
+        <ul class="nav-section mb-8 ul-1">
+            <li><a href="#">Ofertas</a></li>
+            <li><a href="#">Tiendas Oficiales</a></li>
+            <li><a href="#">Vender</a></li>
+            <li><a href="#">Ayuda</a></li>
+        </ul>
+        <ul class="nav-section mb-8 ul-2">
+            <li>
+                <a href="/register">Crea tu cuenta</a><i class="fas fa-address-card m-10"></i>
+            </li>
+            <li>
+                <a href="/login">Ingresar</a><i class="fas fa-sign-in-alt m-10"></i>
+            </li>
+            <li>
+                <a href="#">Mis compras</a><i class="fas fa-shopping-basket m-10"></i>
+            </li>
+        </ul>
+    </nav>
+    <div class="burger">
+        <div class="burger-menu font-heading">
+            <i class="fas fa-bars"></i>
+        </div>
+    </div>
+</header>
+
+    <main class="fondo">
+        <form action="/" method="get">
+            <ul class="lista">
+                <li><input type="text" name="nombre" placeholder="Nombre y apellido" class="input"></li>
+                <li><input type="text" name="usuario" placeholder="Nombre de usuario" class="input"></li>
+                <div>
+                    <li><input type="email" name="mail" placeholder="E-mail" class="input"></li>
+                    <span class="error">*Debe ingresar un e-mail válido.</span>
+                </div>
+                <li>
+                    <h3 class="mt-30">Feha de nacimiento</h3>
+                </li>
+                <li><input type="date" name="date" min="1900-01-01" max="2004-01-01" class="input"></li>
+                <li><input type="text" name="direccion" placeholder="Domicilio" class="input"></li>
+                <li>
+                    <h3 class="mt-30">Perfil del usuario</h3>
+                </li>
+                <div class="perfil mt-30">
+                    <li><input type="radio" name="perfil" value="comprador" id="comprador" class="radio mr-20"><label
+                            for="comprador">Comprador</label></li>
+                    <li><input type="radio" name="perfil" value="vendedor" id="vendedor" class="radio mr-20"><label
+                            for="vendedor">Vendedor</label></li>
+                </div>
+                <li>
+                    <h3 class="mt-30">Intereses</h3>
+                </li>
+                <div class="fs-20 mt-20">
+                    <li><input type="checkbox" name="interes" value="electro" id="electro" class="mt-20 mr-20">
+                        <label for="electro">Electro</label>
+                    </li>
+                    <li><input type="checkbox" name="interes" value="moda" id="moda" class="mt-30 mr-20">
+                        <label for="moda">Moda</label>
+                    </li>
+                    <li><input type="checkbox" name="interes" value="hogar" id="hogar" class="mt-30 mr-20">
+                        <label for="hogar">Hogar</label>
+                    </li>
+                    <li><input type="checkbox" name="interes" value="jugueteria" id="jugueteria" class="mt-30 mr-20">
+                        <label for="jugueteria">Juguetería</label>
+                    </li>
+                    <li><input type="checkbox" name="interes" value="vida-sana" id="vida-sana" class="mr-20 mt-30">
+                        <label for="vida-sana">Vida sana</label>
+                    </li>
+                </div>
+                <li><input type="file" accept=".*" name="file" class="mt-30"></li>
+                <li><input type="password" name="password" placeholder="Ingrese una contraseña" class="input"></li>
+                <li><input type="password" name="repassword" placeholder="Ingrese nuevamente su contraseña"
+                        class="input"></li>
+                <li><input type="submit" value="Enviar" name="enviar"
+                        class="bg-light-blue font-white p-8 button font-medium"></li>
+                <input type="reset" value="Borrar" name="reset" class="bg-light-blue font-white p-8 button font-medium">
+            </ul>
+        </form>
+    </main>
+</body>
+
+</html>
